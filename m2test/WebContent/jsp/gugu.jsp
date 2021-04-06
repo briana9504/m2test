@@ -7,6 +7,7 @@
 </head>
 <body>
 	<h1>jsp방식 구구단</h1>
+	<div>안녕하세요</div>
 	<!-- jap방식은 재사용하기 힘들고 코딩이 지저분해보임 -->
 	<%
 		int dan = Integer.parseInt(request.getParameter("dan"));
