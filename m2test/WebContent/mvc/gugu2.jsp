@@ -12,6 +12,7 @@
 	ArrayList<String> list = (ArrayList<String>)request.getAttribute("list");
 	for(String s: list){
 %>		
+		<h1>구구단</h1>
 		<div><%=s %></div>	
 <%		
 	}
