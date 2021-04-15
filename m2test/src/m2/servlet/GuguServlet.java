@@ -32,5 +32,5 @@ public class GuguServlet extends HttpServlet {
 		rd.forward(request, response);
 		//list 넘기는 방법? 1. session으로 넘김 - 그런데 계속 존재 2. 추가로 데이터를 더 넣음(list를 request에 넣음)
 	}
-
+	
 }
